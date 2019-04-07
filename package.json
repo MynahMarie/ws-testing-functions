@@ -1,0 +1,19 @@
+{
+  "name": "function-design",
+  "version": "1.0.0",
+  "description": "Workshop to explain function design in relation with TDD.",
+  "main": "rot13.js",
+  "scripts": {
+    "test": "tape rot13.test.js | tap-spec",
+    "solution": "tape solution/rot13-solution.test.js | tap-spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
